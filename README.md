@@ -1,4 +1,4 @@
-# Mi portafolio de habilidades TECNOLOCHICAS PRO 
+# Mi portafolio de habilidades TECNOLOCHICAS PRO 📎✨
 
 Este proyecto es un portafolio desarrollado para poner en práctica las habilidades obtenidas dentro del bootcamp de desarrollo frontend de **Technolochicas PRO**.
 
@@ -8,7 +8,7 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 [Proyecto desplegado (https://malinali.netlify.app/)](https://fridal.netlify.app/)
 
-## Secciones de mi sitio
+## Secciones de mi sitio 🧩
 
 ![Presentación](assets/readme/1.png)
 
@@ -29,4 +29,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 ---
 
-Desarrollado con  💜 por [Frida] en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
+Desarrollado por Frida 🧬 en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
