@@ -23,12 +23,6 @@ typewriter
 
 
 
-let frase = document.getElementById('frase');
-
-let typewriterFrase = new Typewriter(frase, {
-loop: true,
-delay: 75,
-});
   
 
     
