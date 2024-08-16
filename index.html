@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frida López Ruiz</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="audio">
+    <audio autoplay>
+        <source src="assets/music/please.mp3" type="audio/mpeg"> 
+    </audio>
+    
+    <!--- Cabecera de mi página -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md bg-black" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Frida</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pb-3">
+
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center ">
+                <div  class="row flex-lg-row align-items-center g-5 py-5">
+                    <div id=cont1 class="col-lg-6 bg-black p-3">
+                        <h1 id="app" class="display-5 fw-bold text-white text-shadow-1 lh-1 mb-3 roboto">
+                            Frida López Ruiz
+                        </h1>
+                        <p class="lead text-white text-shadow-1">  
+                            Estudiante de Biología  interesada en estudiar a los manglares, la diversidad microbiana y los elasmobranquios.
+                            Me gusta  la bioinformática, la metagenómica y soy aficionada de la programación.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-outline-secondary btn-lg px-4">fridalopez108e@gmail.com</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="container px-4 py-5">
+            <!-- Título de mi sección  -->
+            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <!-- Contenedor de mis cartas-->
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
+                    <p>Conocimientos en HTML, CSS y JS.</p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
+                    <p>Colaboro con equipos multidisciplinarios.</p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
+                    <p>Compromiso por mis responsabilidades.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="container px-4 py-5">
+            <!-- Título de mi sección  -->
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
+
+                <div class="col">
+
+                    <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="" target="_blank" class="ps-3">URL</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Taller de bioinformática y Metagenómica</h3>
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://bioinf2024.netlify.app/" target="_blank" class="ps-3">URL</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+
+                    <div id="proyecto-3" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi primer página</h3>
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="http://" target="_blank" class="ps-3">URL</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="testimonios">
+            <h1 class="text-center my-5">Testimonios</h1>
+            <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" data-bs-theme="dark"
+                data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/lynn.webp" height="200" alt="Lynn Margulis">
+                            <h3 class="my-3">Lyyn Margulis</h3>
+                            <p>"Frida es una estudiante excepcional"</p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/julieta.jpg" height="200" alt="Julieta Fierro">
+                            <h3 class="my-3">Julieta Fierro</h3>
+                            <p>"Frida es una persona dedicada y creativa"</p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/rosalind.jpg" height="200" alt="Rosalind Franklin">
+                            <h3 class="my-3">Rosalind Franklin</h3>
+                            <p>"Frida es una persona apasionada por la Biología"</p>
+                        </article>
+                    </div>
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+        <p class="mt-5 text-white text-center texto-gigante">
+            <i class="bi bi-file-code-fill"></i>
+        </p>
+        
+        <h4 id="frase" class="text-white text-center mb-5">"...Por lo tanto, lo que debemos hacer es esforzarnos y perseverar y
+            NUNCA RENDIRNOS."</h4>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item fs-1 ">
+                <a href="https://github.com/FridalRuiz" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-github text-white"></i>
+                </a>
+            </li>
+
+            <li class="nav-item fs-1">
+                <a href="https://www.linkedin.com/in/fridalruiz/" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-linkedin text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1 ">
+                <a href="https://www.instagram.com/fand_tm/" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-instagram text-white"></i>
+                </a>
+            </li>
+
+        </ul>
+        <p class="text-center text-white">© 2024 Frida, TECHNOLOCHICAS PRO</p>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
